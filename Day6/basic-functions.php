@@ -17,5 +17,6 @@ echo "<br/>";
 echo substr($st,-5);
 // die;
 exit;
-echo phpinfo();
+//echo "This will not displayed";
+// echo phpinfo();
 ?>
