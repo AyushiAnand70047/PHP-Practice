@@ -8,8 +8,8 @@
 
 <?php
 if(isset($_POST['btn'])){
-    $val = $_POST['user'];
     if($_POST['btn'] == 'set'){
+        $val = $_POST['user'];
         setcookie("user",$val);
         echo "Cookie is set";
     }
